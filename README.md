@@ -75,4 +75,4 @@ De möjliga rutterna blir nu
 
 Den kortaste rutten är således 7 m.
 
-Dina avstånd hittar du [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt)
+Dina avstånd hittar du [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
