@@ -3,7 +3,7 @@
 Ni ska nu ger er på att försöka lösa fem olika programmeringsuppgifter. Svaret till varje problem ger en siffra, där de samlade lösningarna tillsammans ger en sifferkombination som motsvarar alfabetiska positioner. Givet dessa motsvarande bokstäver ska ni nu komma fram till korrekt ord som sökes. Som ett exempel motsvarar siffran 1 bokstaven A, siffran 24 motsvarar bokstaven X osv. 
 
 *Ni får lösa det i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python då det är det vi kodar i. 
-Bonus ges till de grupper som skriver läsbar och hållbar kod!*
+Bonus ges till de grupper som skriver läsbar och hållbar kod. Lycka till!*
 
 ## Problem 1
 Ibland kan posten ha svårt att hitta till Violets adress, Linnégatan 87A, när de ska leverera paket. Mer specifikt har de ofta svårt att hitta vilken våning vi är på. Posten har därför börjat med ett internt system för att lista ut vilken våning de ska leverera till, men brevbärarna tycker att instruktionerna är lite oklara. Instruktionerna säger att när de levererar ett paket ska de börja på våning 0 och sedan följa instruktionerna en karaktär i taget. Instruktionerna innehåller enbart en massa plus- och minustecken. Ett plustecken, +, betyder att de ska upp en våning, ett minustecken, -, betyder att de ska ned en våning.
@@ -63,6 +63,10 @@ Efter pingis-rasten kallar plikten och det är dags att gå tillbaka till det da
 #### Exempelvis:
 * Avståndet från A till B är 6
 * Avståndet från A till C är 5
+
+## Slutuppgift
+Om du har löst alla problem har du fått ut 5 st siffror. Dessa siffror motsvarar positioner i det svenska alfabetet. Svaren har inte nödvändigtvis kommer ut i korrekt ordning. Lösningen till hackathonet är ordet vi eftersöker, meddela oss när ni hittat det!
+
 * Avståndet från B till C 2
 
 De möjliga rutterna blir nu
