@@ -26,7 +26,7 @@ För att en fyrkant ska vara möjlig måste summan av alla vinklar av fyrkant va
 Givet [denna](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/problem_2) lista, räkna ut hur många av de listade vinklarna som ger en fyrkant.
 
 ## Problem 3
-Äntligen har posten lyckats leverera till rätt rum hos Violet! Kan ni gissa vad paketet innehåller? That’s right, en mining-rig. Nu är det dags för Violet att bryta sina egna Violetcoins! Violetcoins mineras på ett annorlunda sätt jämfört med andra typer av kryptovalutor, nämligen genom att räkna ut medelvärdet av checksummor. Ni har fått ett tabulerat dokument med rader beståendes av till synes slumpmässiga tal, detta dokument ska ni nu använda till att lösa ut medelvärdet av checksumman. Hur får man då ut en checksumma? Jo, för varje rad i dokumentet ska ni ta reda på skillnaden mellan den största och lägsta siffran - checksumman fås av summan av alla dessa skillnader.
+Äntligen har posten lyckats leverera till rätt rum hos Violet! Kan ni gissa vad paketet innehåller? That’s right, en mining-rig. Nu är det dags för Violet att bryta sina egna Violetcoins! Violetcoins bryts på ett annorlunda sätt jämfört med andra typer av kryptovalutor, nämligen genom att räkna ut medelvärdet av checksummor. Ni har fått ett tabulerat dokument med rader beståendes av till synes slumpmässiga tal, detta dokument ska ni nu använda till att lösa ut medelvärdet av checksumman. Hur får man då ut en checksumma? Jo, för varje rad i dokumentet ska ni ta reda på skillnaden mellan den största och lägsta siffran - checksumman fås av summan av alla dessa skillnader.
 
 #### Exempelvis: 
 Givet följande tabell:
@@ -51,7 +51,7 @@ Efter att ni nu satt upp mining-riggen bestämmer ni er för att ta en pingisras
 1. Hitta ett sexsiffrigt värde mellan 248345 och 746315 som uppfyller följande kriterier:
 * Går man från vänster till höger minskar aldrig siffrorna, de enbart ökar eller är samma som föregående siffra
 * Enbart två närliggande siffror i lösenordet är likadana (ex. 123345)
-2. Värdet är den sexsiffriga kombination som är den tredje sexsiffriga kombination närmast siffran 248345 och som uppfyller kriterierna från 1.
+2. Värdet är den tredje sexsiffriga kombination närmast siffran 248345 och som uppfyller kriterierna från 1.
 3. Lösenordet fås genom att ta medelvärdet av den sexsiffriga kombinationen och avrunda till närmaste heltal.
 
 #### Exempelvis:
