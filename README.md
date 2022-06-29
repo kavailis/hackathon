@@ -75,7 +75,7 @@ De möjliga rutterna blir nu
 
 Den kortaste rutten är således 7 m.
 
-Avståndend hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
+Avstånden hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
 
 ## Slutuppgift
 Om ni har löst alla problem har ni fått ut 5 st siffror. Dessa siffror motsvarar positioner i det svenska alfabetet. Svaren har inte nödvändigtvis kommer ut i korrekt ordning. Lösningen till hackathonet är ordet vi eftersöker, meddela oss när ni hittat det!
