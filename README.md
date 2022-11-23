@@ -1,6 +1,6 @@
 # Hackathon hos Violet
 
-Ni ska nu ger er på att försöka lösa fyra olika programmeringsuppgifter. Svaret till varje problem ger en siffra, där varje siffra mostvarar ett ord i hashmapen längst ned i dokumentet. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning kan ni kolla med oss om ni fått en korrekt sådan. Ni får givetvis ställa oss frågor under hackathonets gång. Ni har 1.5 h på. Lycka till!
+Ni ska nu ger er på att försöka lösa fyra olika programmeringsuppgifter. Svaret till varje problem ger en eller flera siffor, beroende på antal inputs. Spara undan siffran, ni kommer att behöva samtliga till sista problemet. Ni har 1.5 h på. Lycka till!
 
 *Ni får lösa uppgifterna i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python eller JavaScript då de är de vanligaste språken vi på Violet kodar i. Eloge ges till de grupper som skriver läsbar och hållbar kod.*
 
@@ -56,25 +56,9 @@ Efter att ni nu satt upp mining-riggen bestämmer ni er för att ta en pingisras
 #### Exempelvis:
 Om vi i detta exempel letar efter ett tresiffrigt värde och har intervallet 100-300 ser vi att ett värde som som uppfyller Instruktion 1. kan vara 112, 113, 114, 115 osv (eftersom att siffrorna från vänster till höger aldrig minskar samt att enbart två närliggande siffror är likadana), men av dessa är det enbart 114 som uppfyller Instruktion 2 (eftersom att 114 är tredje närmast 100, efter 112 och 113). Det avrundade medelvärdet blir nu (1+1+4) / 3 = 2, enligt Instruktion 3, och svaret på frågan är således 2.
 
-## Problem 5
-Efter pingis-rasten kallar plikten och det är dags att gå tillbaka till det dagliga arbetet. Efter ett litet tag har du fått upp ett bra flow, något du gärna inte avbryter allt för mycket, men chefen har nu gett dig i uppgift att gå till varje enskild medarbetare för att få deras underskrift på ett födelsedagsgratulationskort som ska ges till en av kontorets många hundar. Du vill inte spilla alltför mycket tid på detta, så du tänker att det snabbaste är att planera ut den mest effektiva rutten för att samla in dessa underskrifter, baserat på avstånden mellan skrivborden. Du kan börja och sluta hos vilken person du vill, men du måste besöka varje skrivbord exakt en gång. Vad är det kortaste avståndet (i meter) du kan röra dig på och ändå besöka alla kollegor?
-
-#### Exempelvis:
-* Avståndet från A till B är 6
-* Avståndet från A till C är 5
-* Avståndet från B till C 2
-
-De möjliga rutterna blir nu
-* A -> B -> C = 6 + 2 = 8
-* A -> C -> B  = 5 + 2 = 7
-* B -> C -> A = 2 + 5 = 7
-* B -> A -> C = 6 + 5 = 11
-* C -> B -> A = 2 + 6 = 8
-* C -> A -> B = 5 + 6 = 11
-
-Den kortaste rutten är således 7 m.
-
-Avstånden hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
-
 ## Slutuppgift
-Om ni har löst alla problem har ni fått ut 5 st siffror. Dessa siffror motsvarar positioner i det svenska alfabetet. Svaren har inte nödvändigtvis kommer ut i korrekt ordning. Lösningen till hackathonet är ordet vi eftersöker, meddela oss när ni hittat det!
+Om ni har löst alla problem har ni fått ut 7 st siffror. Varje siffra mostvarar ett ord i en array, som ni finner nedan, där siffran är ordets plats i arrayen. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning så meddela oss!
+
+Hashmapen hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
+
+
