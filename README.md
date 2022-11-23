@@ -22,7 +22,7 @@ Posten lyckades hitta till Violet men nu kvarstår nästa utmaning: Att hitta ti
 
 För att en fyrkant ska vara möjlig måste summan av alla vinklar av fyrkant vara lika med 360. Exempelvis ger vinklarna 180, 180, 60, 60 inte en fyrkant, eftersom att 180+180+60+60 = 480 =/= 360. Däremot ger vinklarna 100, 80, 150, 30 en fyrkant, då 100+80+150+30 = 360.
 
-Givet [denna](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/problem_2) lista, räkna ut hur många av de listade vinklarna som ger en fyrkant.
+Givet [denna](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/776682304af2657382810f0fb23a66b8d221cf65/problem_2.txt) lista, räkna ut hur många av de listade vinklarna som ger en fyrkant.
 
 ## Problem 3
 Äntligen har posten lyckats leverera till rätt rum hos Violet! Kan ni gissa vad paketet innehåller? That’s right, en mining-rig. Nu är det dags för Violet att bryta sina egna Violetcoins! Violetcoins bryts på ett annorlunda sätt jämfört med andra typer av kryptovalutor, nämligen genom att räkna ut medelvärdet av checksummor. Ni har fått ett tabulerat dokument med rader beståendes av till synes slumpmässiga tal, detta dokument ska ni nu använda till att lösa ut medelvärdet av checksumman. Hur får man då ut en checksumma? Jo, för varje rad i dokumentet ska ni ta reda på skillnaden mellan den största och lägsta siffran - checksumman fås av summan av alla dessa skillnader.
@@ -42,7 +42,7 @@ Givet följande tabell:
 
 Checksumman för exempeltabellen blir 8+6+11 = 25, medelvärdet blir då avrundat till 8.
 
-Vad blir medelvärdet av checksumman för [dessa](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile1.txt?) rader? Avrunda till närmaste heltal om det behövs.
+Vad blir medelvärdet av checksumman för [dessa](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/03c9c072bdd1442781f63da5e30fdabf144487af/problem_3.txt) rader? Avrunda till närmaste heltal om det behövs.
 
 ## Problem 4
 Efter att ni nu satt upp mining-riggen bestämmer ni er för att ta en pingisrast. Ni går för att hämta racketen men inser snabbt att de förflyttats från sin vanliga plats till ett kassaskåp. Ingen på kontoret verkar veta vad lösenordet kan vara, men ni hittar en lapp på pingisbordet som innehåller några intressanta instruktioner för hur man kan få fram lösenordet:
