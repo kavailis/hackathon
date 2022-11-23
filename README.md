@@ -1,9 +1,8 @@
 # Hackathon hos Violet
 
-Ni ska nu ger er på att försöka lösa fem olika programmeringsuppgifter. Svaret till varje problem ger en siffra, där de samlade lösningarna tillsammans ger en sifferkombination som motsvarar alfabetiska positioner. Givet dessa motsvarande bokstäver ska ni nu komma fram till korrekt ord som sökes. Som ett exempel motsvarar siffran 1 bokstaven A, siffran 24 motsvarar bokstaven X osv. 
+Ni ska nu ger er på att försöka lösa fyra olika programmeringsuppgifter. Svaret till varje problem ger en siffra, där varje siffra mostvarar ett ord i hashmapen längst ned i dokumentet. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning kan ni kolla med oss om ni fått en korrekt sådan. Ni får givetvis ställa oss frågor under hackathonets gång. Ni har 1.5 h på. Lycka till!
 
-*Ni får lösa det i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python då det är det vi kodar i. 
-Bonus ges till de grupper som skriver läsbar och hållbar kod. Lycka till!*
+*Ni får lösa uppgifterna i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python eller JavaScript då de är de vanligaste språken vi på Violet kodar i. Eloge ges till de grupper som skriver läsbar och hållbar kod.*
 
 ## Problem 1
 Ibland kan posten ha svårt att hitta till Violets adress, Linnégatan 87A, när de ska leverera paket. Mer specifikt har de ofta svårt att hitta vilken våning vi är på. Posten har därför börjat med ett internt system för att lista ut vilken våning de ska leverera till, men brevbärarna tycker att instruktionerna är lite oklara. Instruktionerna säger att när de levererar ett paket ska de börja på våning 0 och sedan följa instruktionerna en karaktär i taget. Instruktionerna innehåller enbart en massa plus- och minustecken. Ett plustecken, +, betyder att de ska upp en våning, ett minustecken, -, betyder att de ska ned en våning.
