@@ -14,7 +14,7 @@ Ibland kan posten ha svårt att hitta till Violets adress när de ska leverera p
 
 Vilken våning ska posten leverera till?
 
-Er input är finns [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/problem_1).
+Er input är finns [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/e660ed6153a3c4781bff29f9070b1db3d334bc6d/problem_1.txt).
 
 
 ## Problem 2
