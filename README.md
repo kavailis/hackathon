@@ -76,11 +76,17 @@ Vi har då att svaret till sista tentafrågan blir => (k0+k1+k2...) **-** 84
 | :--------- | :----------- |
 | Philip | NGO003 |
 | Kevin | MTD001 |
+
+
 &rarr; 
 Merged: "PhilipKevin"
+
 k0 = (2\*15+7-8+11-8+15) / 3 = 15,6666666667
+
 k1 = (-2\*10+4-21+8-13+21) / 1 = -21
+
 &rarr; (k0 + k1) - 84 = (15,6666666667 + -21) - 84 = -89,3333333333
+
 Svar: -89
 
 Vad är svaret på sista tenta frågan?
