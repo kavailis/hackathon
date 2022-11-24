@@ -14,7 +14,7 @@ Ibland kan posten ha svårt att hitta till Violets adress när de ska leverera p
 
 Vilken våning ska posten leverera till?
 
-Er input är finns [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/e660ed6153a3c4781bff29f9070b1db3d334bc6d/problem_1.txt).
+Era input är finns [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/e660ed6153a3c4781bff29f9070b1db3d334bc6d/problem_1.txt).
 
 
 ## Problem 2
@@ -22,7 +22,7 @@ Posten lyckades hitta till Violet men nu kvarstår nästa utmaning: Att hitta ti
 
 För att en fyrkant ska vara möjlig måste summan av alla vinklar av fyrkant vara lika med 360. Exempelvis ger vinklarna 180, 180, 60, 60 inte en fyrkant, eftersom att 180+180+60+60 = 480 =/= 360. Däremot ger vinklarna 100, 80, 150, 30 en fyrkant, då 100+80+150+30 = 360.
 
-Givet [denna](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/776682304af2657382810f0fb23a66b8d221cf65/problem_2.txt) lista, räkna ut hur många av de listade vinklarna som ger en fyrkant.
+Givet [dessa listor](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/776682304af2657382810f0fb23a66b8d221cf65/problem_2.txt) lista, räkna ut hur många av de listade vinklarna som ger en fyrkant.
 
 ## Problem 3
 Äntligen har posten lyckats leverera till rätt rum hos Violet! Kan ni gissa vad paketet innehåller? That’s right, en mining-rig. Nu är det dags för Violet att bryta sina egna Violetcoins! Violetcoins bryts på ett annorlunda sätt jämfört med andra typer av kryptovalutor, nämligen genom att räkna ut medelvärdet av checksummor. Ni har fått ett tabulerat dokument med rader beståendes av till synes slumpmässiga tal, detta dokument ska ni nu använda till att lösa ut medelvärdet av checksumman. Hur får man då ut en checksumma? Jo, för varje rad i dokumentet ska ni ta reda på skillnaden mellan den största och lägsta siffran - checksumman fås av summan av alla dessa skillnader.
@@ -87,8 +87,8 @@ Vad är svaret på sista tenta frågan?
 
 
 ## Slutuppgift
-Om ni har löst alla problem har ni fått ut 7 st siffror. Varje siffra mostvarar ett ord i en array, som ni finner nedan, där siffran är ordets plats i arrayen. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning så meddela oss!
+Om ni har löst alla problem har ni fått ut 7 st siffror. Varje siffra mostvarar ett ord i en lista, som ni finner nedan, där siffran är ordets index i listan. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning så meddela oss!
 
-Hashmapen hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bc8b4362be6b8cb77adfd0bbe07a74f628aa9226/slutuppgift.txt).
+Listan hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bc8b4362be6b8cb77adfd0bbe07a74f628aa9226/slutuppgift.txt).
 
 
