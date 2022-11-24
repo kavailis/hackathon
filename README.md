@@ -45,20 +45,50 @@ Checksumman för exempeltabellen blir 8+6+11 = 25, medelvärdet blir då avrunda
 Vad blir medelvärdet av checksumman för [dessa](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/03c9c072bdd1442781f63da5e30fdabf144487af/problem_3.txt) rader? Avrunda till närmaste heltal om det behövs.
 
 ## Problem 4
-Efter att ni nu satt upp mining-riggen bestämmer ni er för att ta en pingisrast. Ni går för att hämta racketen men inser snabbt att de förflyttats från sin vanliga plats till ett kassaskåp. Ingen på kontoret verkar veta vad lösenordet kan vara, men ni hittar en lapp på pingisbordet som innehåller några intressanta instruktioner för hur man kan få fram lösenordet:
 
-1. Hitta ett sexsiffrigt värde mellan 248345 och 746315 som uppfyller följande kriterier:
-* Går man från vänster till höger minskar aldrig siffrorna, de enbart ökar eller är samma som föregående siffra
-* Enbart två närliggande siffror i lösenordet är likadana (ex. 123345)
-2. Värdet är den tredje sexsiffriga kombination närmast siffran 248345 och som uppfyller kriterierna från 1.
-3. Lösenordet fås genom att ta medelvärdet av den sexsiffriga kombinationen och avrunda till närmaste heltal.
+Innan ni börjar här hos Violet så måste ni ju såklart bli klara med era studier, det innebär även alla era mattekurser. Sista frågan på Vektorn är skillnaden mellan ett U och en examen. Men! Som tur är så har svaret på sista frågan på Vektorn samma värde som svaret på detta problem!
 
-#### Exempelvis:
-Om vi i detta exempel letar efter ett tresiffrigt värde och har intervallet 100-300 ser vi att ett värde som som uppfyller Instruktion 1. kan vara 112, 113, 114, 115 osv (eftersom att siffrorna från vänster till höger aldrig minskar samt att enbart två närliggande siffror är likadana), men av dessa är det enbart 114 som uppfyller Instruktion 2 (eftersom att 114 är tredje närmast 100, efter 112 och 113). Det avrundade medelvärdet blir nu (1+1+4) / 3 = 2, enligt Instruktion 3, och svaret på frågan är således 2.
+Så, givet alla mattekurser och deras respektive kurskoder nedan, ska ni nu tillämpa ett par regler för att få ut korrekt svar:
+
+#### Kurskoder
+| Kursnamn | Kurskod |
+| :--------- | :----------- |
+| Matematisk Grundkurs | TNA001 |
+| Linjär Algebra | TNA002 |
+| Analys I | TNA003 |
+| Analys II | TNA004 |
+| Tillämpad matematik i teknik och naturvetenskap | TNA005 |
+| Analys III | TNA006 |
+| Vektoranalys | TNA007 |
+| Tillämpad Transformteori | TNG032 |
+
+#### Regler
+- För varje kurs &rarr; k = kursnamn / kod 
+- Kursnamn = summan av bokstavsvärdena (a = 0, b = 1..)
+- Om bokstaven är en versal blir värdet fördubblat (A = 0, B = 2, C = 4..)
+- Om bokstaven är på udda position relativt till en merge:ad sträng av alla kursnamn så blir "bokstav = -bokstav", 
+dvs: "Matematisk GrundkursLinjär AlgebraAnalys IAnalys II..." där "M" = jämn, "a" = udda, osv 
+- Vi räknar mellanslag som "bokstav/char" och mellanslag har värdet = -1
+
+Vi har då att svaret till sista tentafrågan blir => (k0+k1+k2...) **-** 84
+### Exempelvis: 
+| Kursnamn | Kurskod |
+| :--------- | :----------- |
+| Philip | NGO003 |
+| Kevin | MTD001 |
+&rarr; 
+Merged: "PhilipKevin"
+k0 = (2\*15+7-8+11-8+15) / 3 = 15,6666666667
+k1 = (-2\*10+4-21+8-13+21) / 1 = -21
+&rarr; (k0 + k1) - 84 = (15,6666666667 + -21) - 84 = -89,3333333333
+Svar: -89
+
+Vad är svaret på sista tenta frågan?
+
 
 ## Slutuppgift
 Om ni har löst alla problem har ni fått ut 7 st siffror. Varje siffra mostvarar ett ord i en array, som ni finner nedan, där siffran är ordets plats i arrayen. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning så meddela oss!
 
-Hashmapen hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bf57b2981634a21866aad6146974167215d1a8b4/gistfile2.txt).
+Hashmapen hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bc8b4362be6b8cb77adfd0bbe07a74f628aa9226/slutuppgift.txt).
 
 
