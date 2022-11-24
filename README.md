@@ -1,8 +1,8 @@
-# Hackathon hos Violet
+# Violet Hackathon Pre-MTD 2022
 
-Ni ska nu ger er på att försöka lösa fyra olika programmeringsuppgifter. Svaret till varje problem ger en eller flera siffor, beroende på antal inputs. Spara undan siffran, ni kommer att behöva samtliga till sista problemet. Ni har 1.5 h på. Lycka till!
+Välkomna! Ni ska nu ger er på att försöka lösa *fem* olika programmeringsuppgifter. Svaret till de fyra första problem ger en eller flera siffor, beroende på antal inputs. Spara undan siffrorna, ni kommer att behöva samtliga till sista problemet. Ni har 1.5 h på er. Lycka till!
 
-*Ni får lösa uppgifterna i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python eller JavaScript då de är de vanligaste språken vi på Violet kodar i. Eloge ges till de grupper som skriver läsbar och hållbar kod.*
+*Ni får lösa uppgifterna i vilket programmeringsspråk ni vill, men vi uppmuntrar er till att använda Python eller JavaScript då de är de vanligaste språken vi på Violet kodar i. Eloge ges till de grupper som skriver läsbar och hållbar kod. Ni får dessutom givetvis fråga ställa oss frågor och använda Google.*
 
 ## Problem 1
 Ibland kan posten ha svårt att hitta till Violets adress när de ska leverera paket. Mer specifikt har de svårt att hitta vilken våning vi är på. Posten har därför börjat med ett internt system för att lista ut vilken våning de ska leverera till, men brevbärarna tycker att instruktionerna är lite oklara. Instruktionerna säger att när de levererar ett paket ska de börja på våning 0 och sedan följa instruktionerna en karaktär i taget. Instruktionerna innehåller enbart en massa plus- och minustecken. Ett plustecken, **+**, betyder att de ska upp en våning, ett minustecken, **-**, betyder att de ska ned en våning.
