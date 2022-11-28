@@ -95,6 +95,6 @@ Vad är svaret på sista tenta frågan?
 ## Slutuppgift
 Om ni har löst alla problem har ni fått ut 7 st siffror. Varje siffra mostvarar ett ord i en lista, som ni finner nedan, där siffran är ordets index i listan. Givet dessa ord ska ni nu komma fram till korrekt frågeställning som sökes. När ni kommit fram till en frågeställning så meddela oss!
 
-Listan hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/bc8b4362be6b8cb77adfd0bbe07a74f628aa9226/slutuppgift.txt).
+Listan hittar ni [här](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/036e09d2ca756bd7c2af3c243bb8e25017e7ce72/slutuppgift.txt).
 
 
