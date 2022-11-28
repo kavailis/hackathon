@@ -42,7 +42,7 @@ Givet följande tabell:
 
 Checksumman för exempeltabellen blir 8+6+11 = 25, medelvärdet blir då avrundat till 8.
 
-Vad blir medelvärdet av checksumman för [dessa](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/03c9c072bdd1442781f63da5e30fdabf144487af/problem_3.txt) rader? Avrunda till närmaste heltal om det behövs.
+Vad blir medelvärdet av checksumman för [dessa](https://gist.githubusercontent.com/kavailis/4710b5a3b42eddf20de753e47ba61394/raw/2e6e22382a82e91b854d1a74534192a454b14ba4/problem_3.txt) rader? Avrunda till närmaste heltal om det behövs.
 
 ## Problem 4
 
